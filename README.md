@@ -22,5 +22,5 @@ Description | Print Hello World in Python
 Due Date |  Febuary 2, 2023
 Status  | Done
 Location | https://github.com/CS0econtreras/OOP--encontrerasmor-/tree/main/helloGit
-Self Grade | 
+Self Grade | 93 because I don't know if I submitted correctly
 Notes |
