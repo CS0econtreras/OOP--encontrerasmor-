@@ -21,6 +21,6 @@ Name | helloGit
 Description | Print Hello World in Python
 Due Date |  Febuary 2, 2023
 Status  | Done
-Location | https://github.com/CS0econtreras/OOP--encontrerasmor-/blob/main/helloGit/hello.py
+Location | https://github.com/CS0econtreras/OOP--encontrerasmor-/tree/main/helloGit
 Self Grade | 
 Notes |
