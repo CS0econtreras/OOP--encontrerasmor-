@@ -24,3 +24,15 @@ Status  | Done
 Location | https://github.com/CS0econtreras/OOP--encontrerasmor-/tree/main/helloGit
 Self Grade | 93 because I don't know if I submitted correctly
 Notes |
+
+**HomeworkA0**
+
+Name | Value
+--- | ---
+Name | Python Review
+Description | Take the python review quizzes with 100%
+Due Date |  Febuary 14, 2023
+Status  | Done
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/review
+Self Grade | 100
+Notes |
