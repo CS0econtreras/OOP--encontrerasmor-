@@ -25,7 +25,7 @@ Location | https://github.com/CS0econtreras/OOP--encontrerasmor-/tree/main/hello
 Self Grade | 93 because I don't know if I submitted correctly
 Notes |
 
-**HomeworkA0**
+**HomeworkA1**
 
 Name | Value
 --- | ---
