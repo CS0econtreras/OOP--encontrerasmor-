@@ -1,23 +1,14 @@
 
 
-class convex:
-    def polygon(self, x, y):
-        self.x = x
-        self.y = y
-        self.n = len(x)
-        self.coArea = 0.0
-        self.j = self.n - 1
+class convex_poly():
+    
+    def __init__(self):
+
+        self._vertices_amount:int = 0
+        self._vertex_pairs:list[tuple[int,int]] =[]
 
 
 
-def convexArea(x, y, n):
-    n = len(x)
-    coArea = 0.0
-    j = n - 1
-    for i in range(n):
-        coArea += x[i] * y[j]
-        coArea -= y[i] * x[j]
-        j = i
-    coArea = abs(coArea) / 2.0
-    return coArea
+
+
 
