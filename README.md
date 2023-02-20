@@ -36,3 +36,15 @@ Status  | Done
 Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/review
 Self Grade | 100
 Notes |
+
+**HomeworkA2**
+
+Name | Value
+--- | ---
+Name | OOD
+Description | Find the area of a convex polygon
+Due Date |  Febuary 21, 2023
+Status  | Done
+Location | 
+Self Grade | 100
+Notes |
