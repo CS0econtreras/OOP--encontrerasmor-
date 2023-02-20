@@ -1,9 +1,10 @@
 import sys
-from polygonClass import Polygon
+from polygonClass import convex_polygon
 
 class main(object):
 
     def __init__(self):
+        self._convx_poly: convex_polygon
         self._polygon_num:int
         self._poly_elements:str
         self._polygon_list:list[str] = []
@@ -26,7 +27,6 @@ class main(object):
     def get_vertices_amount(self) -> int:
         return self._vertices_amount
     
-
         
 
     def main():
