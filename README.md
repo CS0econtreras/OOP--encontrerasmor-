@@ -43,8 +43,8 @@ Name | Value
 --- | ---
 Name | OOD
 Description | Find the area of a convex polygon
-Due Date |  Febuary 21, 2023
+Due Date |  Febuary 28, 2023
 Status  | Done
-Location | 
-Self Grade | 100
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/objects/objects
+Self Grade | 90
 Notes |

@@ -1,0 +1,17 @@
+@startuml PolyClass
+scale 2
+title "UML class convex_polygon"
+class convex_polygon{
+    ...Class Vairables...
+    -_vertices_amount: int
+    -_vertex_pairs: list 
+    +n1: float
+    +n2: float
+    +n3: float
+    ...Class Methods...
+    +set_area(): None 
+    +get_area(): float
+
+}
+
+@enduml

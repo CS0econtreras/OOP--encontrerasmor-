@@ -1,0 +1,24 @@
+@startuml Main
+scale 2
+title "UML Class Diagram"
+class main{
+    ..Class Variables..
+    -_convx_poly
+    -_polygon_num
+    -_poly_elements
+    -_polygon_list
+    -_vertices_amount:int
+    -_vertex_pairs
+    ..Class Methods..
+    +set_polygon_num(): None
+    +get_polygon_num(): int
+    +get_poly_list(): list
+    +get_vertices_amount(): int
+    +get_vertex_pairs(): list
+    +new_polygon(): None
+    +set_poly_elements(): None
+    +answer(): None
+...Static Method...
+    +main(): None
+}
+@enduml

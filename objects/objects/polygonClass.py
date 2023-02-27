@@ -1,14 +1,15 @@
+from typing import List, Tuple
 class convex_polygon(object):
-    
-    def __init__(self):
+    '''Class that calculates the area of a convex polygon'''
+    def __init__(self) -> None:
         self._vertices_amount:int = 0
-        self._vertex_pairs:list[tuple[int,int]] = []
+        self._vertex_pairs:List[Tuple[int,int]] = []
         self.n1: float = 0.0
         self.n2: float = 0.0
         self.n3: float = 0.0
 
-    def set_area(self, vert_count, vert_pairs):
-        self.__init__()
+    def set_area(self, vert_count: int, vert_pairs:List[Tuple[int,int]]) -> None:
+        '''Calculates the area of the polygon'''
         self._vertex_pairs = vert_pairs
         self._vertices_amount = vert_count
 
@@ -21,4 +22,5 @@ class convex_polygon(object):
         self.n3 = abs(self.n3 / 2)
 
     def get_area(self) -> float:
+        '''Returns the area of the polygon'''
         return self.n3
