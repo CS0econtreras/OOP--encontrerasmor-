@@ -6,6 +6,7 @@ all: check_types create_docs localtest create_uml
 	
 localtest:
 	cat data/data.in | python main.py | diff - data/data.ans
+	
 	@echo "Program worked on file"
 
 create_doc_folder:
