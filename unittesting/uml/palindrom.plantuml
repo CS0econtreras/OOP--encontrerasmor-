@@ -1,0 +1,16 @@
+@startuml palindrum
+scale 2
+title "UML Diagram for Palindrum"
+class Palindrum{
+    ...Class Vairables...
+    -_user_phrase: string
+    -_morse_phrase: string
+    -_morse_phrase_backwards: string
+    ...Class Methods...
+    +remove_alphanumeric(): string
+    +set_morse_phrase(): None
+    +get_morse_phrase(): string
+    +set_morse_phrase_backwards(): None
+    +get_morse_phrase_backwards(): string
+}
+@enduml

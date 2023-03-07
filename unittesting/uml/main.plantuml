@@ -1,0 +1,16 @@
+@startuml main
+scale 2
+title "Main"
+class Main {
+    ...Class Variables...
+    -_is_palindrum: bool
+    -_is_palindrum: Palindrum = Palindrum()
+    ...Class Methods...
+    +set_user_phrase(): None
+    +get_user_phrase(): string
+    +palindrum_check(): string
+    ...Static Method...
+    +main(): None
+
+}
+@enduml
