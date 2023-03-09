@@ -54,7 +54,7 @@ class Palindrom:
         &#39;&#39;&#39;strip punctuation from user input
         returns nothing&#39;&#39;&#39;
         self._test_word = s
-        self._test_word = re.sub(&#39;[^a-zA-Z0-9}]+&#39;, &#39;&#39;, self.get_test_word())
+        self._test_word = re.sub(&#39;[^a-zA-Z0-9]+&#39;, &#39;&#39;, self.get_test_word())
         self._test_word.replace(&#34; &#34;, &#34;&#34;)
 
     def set_morse_phrase(self) -&gt; None:
@@ -113,7 +113,7 @@ class Palindrom:
         &#39;&#39;&#39;strip punctuation from user input
         returns nothing&#39;&#39;&#39;
         self._test_word = s
-        self._test_word = re.sub(&#39;[^a-zA-Z0-9}]+&#39;, &#39;&#39;, self.get_test_word())
+        self._test_word = re.sub(&#39;[^a-zA-Z0-9]+&#39;, &#39;&#39;, self.get_test_word())
         self._test_word.replace(&#34; &#34;, &#34;&#34;)
 
     def set_morse_phrase(self) -&gt; None:
@@ -201,7 +201,7 @@ returns nothing</p></div>
     &#39;&#39;&#39;strip punctuation from user input
     returns nothing&#39;&#39;&#39;
     self._test_word = s
-    self._test_word = re.sub(&#39;[^a-zA-Z0-9}]+&#39;, &#39;&#39;, self.get_test_word())
+    self._test_word = re.sub(&#39;[^a-zA-Z0-9]+&#39;, &#39;&#39;, self.get_test_word())
     self._test_word.replace(&#34; &#34;, &#34;&#34;)</code></pre>
 </details>
 </dd>
@@ -236,7 +236,8 @@ returns nothing</p></div>
     returns nothing&#39;&#39;&#39;
     self._morse_phrase = &#34;&#34;
     for i in (self.get_test_word().rstrip()):
-        self._morse_phrase += translate_dict[i.upper()]</code></pre>
+        self._morse_phrase += translate_dict[i.upper()]
+    #print(self._morse_phrase)</code></pre>
 </details>
 </dd>
 </dl>

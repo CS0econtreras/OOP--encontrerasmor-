@@ -26,7 +26,7 @@ class Palindrom:
         '''strip punctuation from user input
         returns nothing'''
         self._test_word = s
-        self._test_word = re.sub('[^a-zA-Z0-9}]+', '', self.get_test_word())
+        self._test_word = re.sub('[^a-zA-Z0-9]+', '', self.get_test_word())
         self._test_word.replace(" ", "")
 
     def set_morse_phrase(self) -> None:
