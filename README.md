@@ -60,3 +60,15 @@ Status  | done
 Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/unittesting
 Self Grade | 97
 Notes |
+
+**HomeworkA4**
+
+Name | Value
+--- | ---
+Name | Hypothesis and mocking 
+Description | Get the cost of a movie and do property based testing 
+Due Date |  March 21, 2023
+Status  | done
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/hypothesis
+Self Grade | 88
+Notes |

@@ -1,0 +1,19 @@
+@startuml main
+scale 2
+title "main"
+class Main{
+    ...Class Variables...
+    -_total_cost: bool
+    -_movie_temp: str
+    -_cost_temp: str
+    -_movieName_cost: str
+    -_movie_obj: Movie = Movie()
+    ...Class Methods...
+    +set_movieName_cost(): None
+    +get_movieName_cost(): String
+    +movie_cost(): str
+    +answer(): str
+    ...Static Method...
+    +main(): None
+}
+@enduml

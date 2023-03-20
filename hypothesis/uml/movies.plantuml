@@ -1,0 +1,12 @@
+@startuml movies
+scale 2
+title "UML Diagram for Movie"
+class Movie{
+    ...Class Vairaibles...
+    -_movieName_cost: String
+    ...Class Methods...
+    +movie_cap(): str
+    +get_movieName(): str
+    +get_cost(): str
+}
+@enduml
