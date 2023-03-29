@@ -1,0 +1,12 @@
+@startuml fraction
+scale 2
+title "UML Class Diagram"
+class Fraction {
+    ..Class Variables..
+    -_intPart: int
+    -_remPart: int
+    -_mixFrac: int
+    ..Class Methods..
+    +mixed_frac(): None
+}
+@enduml
