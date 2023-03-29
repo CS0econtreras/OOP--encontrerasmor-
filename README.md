@@ -72,3 +72,15 @@ Status  | done
 Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/hypothesis
 Self Grade | 88
 Notes |
+
+**HomeworkA5**
+
+Name | Value
+--- | ---
+Name | OOD and Mixed Fractions 
+Description | convert fractions into mixed fractions and do testing 
+Due Date |  March 28, 2023
+Status  | 85% done
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/hypothesis
+Self Grade | 84
+Notes |
