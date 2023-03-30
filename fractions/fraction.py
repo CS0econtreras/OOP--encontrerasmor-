@@ -10,3 +10,5 @@ class Fractions:
         self._intPart = n//d
         self._remPart = n%d
         print(f"{self._intPart} {self._remPart} / {d}")
+    
+    

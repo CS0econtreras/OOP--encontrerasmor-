@@ -3,6 +3,11 @@ from main import Main
 from fraction import Fractions
 from unittest.mock import patch
 from hypothesis import *
+from io import StringIO
+import hypothesis.strategies as some
+from hypothesis import given, settings, Verbosity
+
+
 
 class testMain(unittest.TestCase):
     def test_set_user_fractions(self):
@@ -54,3 +59,7 @@ class testMain(unittest.TestCase):
             obj.MixNum()
             self.assertEqual(obj._num, 7)
             self.assertEqual(obj._denom, 5)
+
+    
+
+        
