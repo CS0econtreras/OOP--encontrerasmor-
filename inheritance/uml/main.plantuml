@@ -1,0 +1,18 @@
+@startuml main
+scale 2
+title "Main"
+class Main {
+    ...Class Variables...
+    -_temp_list: list[list[int]]
+    -_num_test_cases: int
+    -_input: list[str]
+    -_obj_stat: Stat = Stat()
+    ...Class Methods...
+    +__init__(): None
+    +set_testCaseNum(): None
+    +get_stat(): None
+    ...Static Method...
+    +main(): None
+
+}
+@enduml

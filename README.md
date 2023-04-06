@@ -81,6 +81,18 @@ Name | OOD and Mixed Fractions
 Description | convert fractions into mixed fractions and do testing 
 Due Date |  March 28, 2023
 Status  | 85% done
-Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/hypothesis
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/fractions
 Self Grade | 84
+Notes |
+
+**HomeworkA6**
+
+Name | Value
+--- | ---
+Name | Statistics
+Description | find max min range of data and testing 
+Due Date |  March 28, 2023
+Status  | 90% done
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/inheritance
+Self Grade | 90
 Notes |

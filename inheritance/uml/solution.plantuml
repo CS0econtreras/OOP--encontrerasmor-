@@ -1,0 +1,4 @@
+@startuml answer
+title "UML Class Interaction"
+Main "1" - Stats: manages >
+@enduml

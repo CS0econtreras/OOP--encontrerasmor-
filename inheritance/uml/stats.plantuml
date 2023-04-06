@@ -1,0 +1,13 @@
+@startuml Stats
+scale 2
+title "Stats"
+class Main {
+    ...Class Variables...
+    -_sMax: int
+    -_sMin: int
+    -_sRange: int
+    -_temp_list: list[list[int]]
+    ...Class Methods...
+    +getStats(): None
+}
+@enduml
