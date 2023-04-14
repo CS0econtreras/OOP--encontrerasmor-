@@ -96,3 +96,15 @@ Status  | 90% done
 Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/inheritance
 Self Grade | 90
 Notes |
+
+**HomeworkA7**
+
+Name | Value
+--- | ---
+Name | Statistics
+Description | orginize cups by radious size 
+Due Date |  April 15, 2023
+Status  | 70% done
+Location | https://github.com/CS0econtreras/OOP-encontrerasmor/tree/main/abstract
+Self Grade | 70
+Notes |

@@ -1,0 +1,9 @@
+@startuml Cups
+scale 2
+title "Cups"
+class Cups{
+    ...Class Variables...
+    -_radious: float
+    -_color: str
+}
+@enduml

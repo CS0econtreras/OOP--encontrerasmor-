@@ -1,0 +1,19 @@
+@startuml main
+scale 2
+title "Main"
+class Main {
+    ...Class Variables...
+    -super().__init__()(imput_source)
+    -_data: list[list[str]]
+    -_cup_list: List[Cup]
+    -_answer: List[str]
+    -_obj_cup: Cups
+    ...Class Methods...
+    +__init__(): None
+    +read_input(): None
+    +data(): List[List[str]]
+    +answer(): List[Cups]
+    +solve: None
+    +print_answer(): None
+}
+@enduml
